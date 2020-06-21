@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisGeneratorConfiguration">
+    <option name="credentials">
+      <map>
+        <entry key="jdbc:mysql://localhost:3306/db2020">
+          <value>
+            <Credential>
+              <option name="username" value="root" />
+            </Credential>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableConfigs">
+      <map>
+        <entry key="payment">
+          <value>
+            <TableConfig>
+              <option name="basePackage" value="com.atguigu.springcloud" />
+              <option name="comment" value="true" />
+              <option name="domainName" value="Payment" />
+              <option name="domainPackage" value="com.atguigu.springcloud.entities" />
+              <option name="exampleName" value="PaymentExample" />
+              <option name="examplePackage" value="com.atguigu.springcloud.example" />
+              <option name="examplePostfix" value="Example" />
+              <option name="mapperName" value="PaymentMapper" />
+              <option name="mapperPackage" value="mapper" />
+              <option name="mapperPostfix" value="Mapper" />
+              <option name="moduleRootPath" value="$PROJECT_DIR$" />
+              <option name="mysql8" value="true" />
+              <option name="name" value="payment" />
+              <option name="primaryKey" value="id" />
+              <option name="resourcePath" value="src/main/resources" />
+              <option name="sourcePath" value="src/main/java" />
+              <option name="tableName" value="payment" />
+              <option name="xmlPackage" value="mapper" />
+            </TableConfig>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
